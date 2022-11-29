@@ -65,3 +65,6 @@ git commmit -A adds everything.... can also use git add .
 Editing a Todo
 - created a form to edit an exisiting todo
 - submits to update - hits the database with patch or gives an error
+
+Create a partial
+- start name of file with underscore
