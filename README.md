@@ -47,3 +47,21 @@ can also use git to push your code to online repositories (like github, bitbucke
 online repositories allow you to also share your code with other developers 
 
 - initialize a git repository for the application (make sure you are in the main application directory)
+- make an initial commit 
+- create repo in github
+- push work to repo
+
+git init
+git add -A 
+git commit -m "initial commit"
+git remote add origin git@github.com:MACorman/todoapp.git
+git branch -M main 
+git push -u origin main 
+
+
+note: after the first time can push with git push
+git commmit -A adds everything.... can also use git add .
+
+Editing a Todo
+- created a form to edit an exisiting todo
+- submits to update - hits the database with patch or gives an error
