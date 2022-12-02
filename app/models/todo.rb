@@ -1,8 +1,7 @@
 class Todo < ApplicationRecord
-
    validates :name, presence: true
    validates :description, presence: true
 
-    # def initialize
-    # end 
+   belongs_to :user
+
 end 
